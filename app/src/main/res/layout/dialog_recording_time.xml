@@ -1,0 +1,22 @@
+<!-- dialog_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/btn30Seconds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30 Seconds"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btn15Seconds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15 Seconds"
+        android:textColor="@color/white"/>
+</LinearLayout>
